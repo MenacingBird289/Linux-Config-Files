@@ -1,0 +1,2 @@
+PROMPT='%B%(?.%F{green}.%F{red})%~ %F{blue}>%b'
+RPROMPT='%F{orange}%@ %F{blue}%D - %F{yellow}%n'

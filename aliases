@@ -1,0 +1,62 @@
+# ----------
+#  COMMANDS
+# ----------
+# Terminal
+alias q='exit'			# Exit
+alias c='clear'			# Clear terminal
+alias h='history'		# Command history
+alias k='kill'			# Kill application 
+alias config='vim $ZDOTDIR/.zshrc'
+alias aliases='vim $ZDOTDIR/aliases'
+alias reload='source $HOME/.config/zsh/.zshrc' #Reload zshell
+alias pg='ping 8.8.8.8'
+alias wifi='sudo wifi-menu -o'
+alias time='/usr/bin/time'
+alias chrome='google-chrome-stable'
+alias cfg='cd .config'
+# Files
+alias p='cat'			# Print out the contents of a file
+alias lsa='ls -a'		# List all files
+alias lsl='ls -alF'		# List all files, sorted in a collumn, with permissions
+alias mv='mv -i'		# Move file with confirmation
+alias rm='rm -i'		# Remove file with confirmation
+# Directories
+alias null='/dev/null'
+alias home='cd ~'		# Go to your home directory
+alias root='cd /'		# Go to the root directory
+alias ..='cd ..'		# Go back one directory
+alias ...='cd .. ; cd ..'	# Go back 2 directories
+alias ....='cd ..; cd ..; cd ..' # Go back 3 directories
+# --------------
+#  APPLICATIONS
+# --------------
+# Git
+alias g='git'
+alias clone='git clone'		# Clone a git
+alias gs='git status'		# Find the status of a git
+# Text editor
+alias vim='nvim'		# Neovim
+alias vi='nvim'			# Neovim
+alias v='nvim'      # Neovim
+# Pacman
+alias pac='sudo pacman'
+alias paci='sudo pacman -S'	# Install
+alias pachi='sudo pacman -Ql'	# What files where installed in a package
+alias pacs='sudo pacman -Ss'	# Search
+alias pacu='sudo pacman -Syu'	# Full system upgrade
+alias pacr='sudo pacman -R'	# Remove package but not dependencies
+alias pacrr='sudo pacman -Rs' 	# Remove package and unused dependencies
+alias pacrc='sudo pacman -Sc' 	# Remove pacman's cache
+alias pacc='sudo pacman -Sc'	# ^^
+alias paccc='sudo pacman -Scc'	# Empty the whole cache
+# Yay
+alias yayi='yay -S'		# Install
+alias yayhi='yay -Ql'		# What files where installed in a package
+alias yays='yay -Ss'		# Search
+alias yayu='yay -Syu'		# Full system upgrade
+alias yayr='yay -R'		# Remove package but not dependencies
+alias yayrr='yay -Rs'		# Remove package and unused dependencies
+alias yayrc='yay -Sc'		# Remove yay's cache
+# Neovim
+alias svim='sudoedit'
+
